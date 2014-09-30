@@ -1,0 +1,16 @@
+<OBJECT>
+	<Dataset name="DS_Second" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific Table="00000000-0000-0000-0000-100000000001" AutoCommit="0" FastCommit="0" PreserveState="0" SelectAll="1" isServerObject="0">
+			<Fields>
+				<Field ID="1" Name="secondService.field1" TblID="D678599F-5BC1-4B29-A1B8-ABD6AE16B0E6" />
+				<Field ID="2" Name="secondService.field2" TblID="D678599F-5BC1-4B29-A1B8-ABD6AE16B0E6" />
+				<Field ID="3" Name="secondService.field3" TblID="D678599F-5BC1-4B29-A1B8-ABD6AE16B0E6" />
+			</Fields>
+			<SqlText>
+			<![CDATA[
+SELECT "secondService".* FROM "secondService"
+			]]>
+			</SqlText>
+		</TypeSpecific>
+	</Dataset>
+</OBJECT>
